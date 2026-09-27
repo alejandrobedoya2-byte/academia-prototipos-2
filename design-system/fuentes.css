@@ -1,0 +1,22 @@
+
+
+
+@font-face { font-family: "Lato"; font-weight: 400; font-display: swap; ascent-override: 98.7%; descent-override: 21.3%; line-gap-override: 0%; src: url("https://cdn.jsdelivr.net/npm/lato-font@3.0.0/fonts/lato-normal/lato-normal.woff2") format("woff2"); }
+@font-face { font-family: "Lato"; font-weight: 500; font-display: swap; ascent-override: 98.7%; descent-override: 21.3%; line-gap-override: 0%; src: url("https://cdn.jsdelivr.net/npm/lato-font@3.0.0/fonts/lato-medium/lato-medium.woff2") format("woff2"); }
+@font-face { font-family: "Lato"; font-weight: 600; font-display: swap; ascent-override: 98.7%; descent-override: 21.3%; line-gap-override: 0%; src: url("https://cdn.jsdelivr.net/npm/lato-font@3.0.0/fonts/lato-semibold/lato-semibold.woff2") format("woff2"); }
+@font-face { font-family: "Lato"; font-weight: 700; font-display: swap; ascent-override: 98.7%; descent-override: 21.3%; line-gap-override: 0%; src: url("https://cdn.jsdelivr.net/npm/lato-font@3.0.0/fonts/lato-bold/lato-bold.woff2") format("woff2"); }
+@font-face { font-family: "Lato"; font-weight: 800; font-display: swap; ascent-override: 98.7%; descent-override: 21.3%; line-gap-override: 0%; src: url("https://cdn.jsdelivr.net/npm/lato-font@3.0.0/fonts/lato-heavy/lato-heavy.woff2") format("woff2"); }
+@font-face { font-family: "Lato"; font-weight: 900; font-display: swap; ascent-override: 98.7%; descent-override: 21.3%; line-gap-override: 0%; src: url("https://cdn.jsdelivr.net/npm/lato-font@3.0.0/fonts/lato-black/lato-black.woff2") format("woff2"); }
+
+
+@font-face { font-family: "Brevia Rumi"; font-weight: 600; font-style: normal; src: local("Brevia Semibold"), local("Brevia-Semibold"); }
+@font-face { font-family: "Brevia Rumi"; font-weight: 700; font-style: normal; src: local("Brevia Bold"), local("Brevia-Bold"); }
+@font-face { font-family: "Brevia Rumi"; font-weight: 700; font-style: italic; src: local("Brevia Bold Italic"), local("Brevia-BoldItalic"); }
+@font-face { font-family: "Brevia Rumi"; font-weight: 900; font-style: normal; src: local("Brevia Black"), local("Brevia-Black"); }
+@font-face { font-family: "Brevia Rumi"; font-weight: 900; font-style: italic; src: local("Brevia Black Italic"), local("Brevia-BlackItalic"); }
+
+
+:root {
+  --font-lato: "Lato", system-ui, sans-serif;
+  --font-brevia: "Brevia Rumi", "Brevia", "Lato", system-ui, sans-serif;
+}
