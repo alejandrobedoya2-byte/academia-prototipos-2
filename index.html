@@ -20,6 +20,10 @@
   body { padding-top: 24px; }
   .rumi-cabecera-web--fija, .rumi-pantalla > .rumi-cabecera, .boceto-barra, .rumi-capa { top: 24px !important; }
   .aca-filtros { top: 128px !important; }
+  /* dentro del teléfono del marco la franja queda afuera, arriba de la ventana: ahí no se corre nada (02-10; antes quedaba
+     una tira de página encima de la cabecera, y el menú a todo el alto se pasaba del borde) */
+  .marco-celular .rumi-cabecera-web--fija, .marco-celular .rumi-capa { top: 0 !important; }
+  .marco-celular .aca-filtros { top: 104px !important; }
 </style>
 </head>
 <body>
